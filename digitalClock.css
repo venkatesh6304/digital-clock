@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-size: 100% 100%;
+}
+#secon {
+  position: relative;
+  z-index: -1;
+}
+#container {
+  width: 50vw;
+  height: 60vh;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin: 25vh auto;
+  z-index: 1;
+  /* background-color: rgba(178, 173, 173, 0.63); */
+  font-weight: bold;
+  border-radius: 10px;
+  background: rgba(12, 12, 12, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 15px 15px 10px rgba(42, 42, 42, 0.392),
+    inset -15px -15px 10px rgba(23, 23, 23, 0.321), 5px 5px 5px black;
+}
+#sec {
+  font-size: 60em;
+  position: absolute;
+  transform: translateX(22vw) translateY(-25vh);
+  color: white;
+}
+#time {
+  position: fixed;
+  font-size: 8em;
+  transform: translatex(50px);
+  margin: 15% 0 0 15%;
+  color: royalblue;
+  text-shadow: 2px 2px 5px black;
+}
+#date {
+  position: absolute;
+  margin: 35% 0% 0 35%;
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+#day {
+  position: absolute;
+  margin: 45% 0% 0 35%;
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
